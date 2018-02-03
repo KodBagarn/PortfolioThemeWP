@@ -1,0 +1,121 @@
+/*
+Theme Name: wordpresslab
+Author: Martin Cronqvist
+Description: A theme to present creative work
+*/
+
+
+*{
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+html{
+  background-color: #30387c;
+  margin: 0;
+}
+
+header{
+  padding: 20px;
+  background-color: #c7c8c9;
+  overflow: hidden;
+}
+
+a{
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+
+a:hover{
+  color: #2633a0;
+}
+
+.textwidget > p{
+  margin-bottom: 40px;
+}
+
+
+#hometitle{
+  margin:0;
+  padding: 0;
+}
+
+p{
+  margin: 0;
+}
+
+#sidebar{
+  margin: 0;
+}
+
+#menu-page-menu{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+float: right;
+ background-color: #c7c8c9;
+
+}
+
+#menu-page-menu > li{
+  padding: 6px;
+  font-size: 26px;
+  display: inline-block;
+}
+
+#menu-page-menu > li.current-menu-item > a{
+  border: solid 2.5px #000000;
+  font-weight: 900;
+  border-top-style: hidden;
+}
+
+#menu-page-menu > li > a:hover{
+  border: solid 3.5px #000000;
+  border-top-style: hidden;
+  transition: ease-out 0.1s;
+}
+
+#menu-page-menu > li > a{
+  padding: 12px;
+  padding-top: 0;
+  border: solid 1.5px #000000;
+  border-top-style: hidden;
+  margin-bottom: 30px;
+  text-align: center;
+
+
+
+}
+
+main{
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+body{
+  margin: 0 auto;
+  max-width: 1200px;
+  background-color: #ffffff;
+}
+
+.all{
+  font-weight: 750;
+  font-size: 25px;
+  padding-right: 8px;
+}
+
+.types{
+  font-weight: 600;
+  font-size: 25px;
+  padding-right: 8px;
+}
+
+hr{
+  background-color: #000000;
+}
+
+footer{
+  background-color: #c7c8c9;
+  padding: 30px;
+  margin: 0;
+}
